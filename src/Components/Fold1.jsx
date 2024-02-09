@@ -22,11 +22,7 @@ const Fold1 = () => {
   return (
     <div className="content__container">
       <div className="content__header front__content">
-        <img
-          className="crest"
-          src="./public/hogwarts-1.svg"
-          alt="Hogwarts Crest"
-        />
+        <img className="crest" src="/hogwarts-1.svg" alt="Hogwarts Crest" />
       </div>
 
       <div className="content__header back__content page2-content">
