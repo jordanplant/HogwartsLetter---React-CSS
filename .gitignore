@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+note.txt
+css backup.txt
+.revert if needed.txt 
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
