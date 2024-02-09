@@ -1,0 +1,102 @@
+/* Back content styling */
+
+li {
+  font-family: "HarryPotter7", sans-serif;
+  font-size: 0.85em;
+}
+
+.back__content {
+  display: none; /* Initially hidden */
+}
+
+.page2-content {
+  transform: rotateY(180deg);
+  transition: transform 1s; /* Add transition for smooth animation */
+}
+
+/* Keyframes for forward flip animation */
+@keyframes forwardFlip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Keyframes for reverse flip animation */
+@keyframes reverseFlip {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+.letter.forward-flipped {
+  animation: forwardFlip 2s ease forwards;
+}
+
+.letter.reverse-flipped {
+  animation: reverseFlip 2s ease forwards;
+}
+
+/* Adjustments for when the letter is flipped */
+.letter.flipped .fold .back__content {
+  display: block; /* Show back content */
+}
+
+.letter.flipped .fold .front__content {
+  display: none; /* Hide front content */
+}
+
+/* Rotation styling for flipping the letter with animation */
+/* Remove or modify this part if it's no longer needed */
+.letter.flipped {
+  animation: flipAnimation 1s ease forwards; /* May conflict with new flip animations */
+}
+
+.back__content__body {
+  margin-top: 1em;
+}
+.back__body__list,
+.back__header__list,
+.back__footer__list {
+  padding: 0em !important;
+}
+
+.back__body__list li {
+  padding: 0.3em 0em;
+  /* font-size: 0.8em !important; */
+  /* margin-bottom: 0.3em; */
+}
+
+.back__content p {
+  margin: -0.5em 0em;
+}
+.back__header__list li {
+  padding: 0.2em 0em;
+}
+
+.back__content__heading p {
+  /* margin-top: 0.3em; */
+}
+
+.footer__heading {
+  margin-top: 0.5em;
+  margin-bottom: -0.5em;
+}
+
+.back__footer__list li {
+  padding: 0.2em 0em;
+}
+
+.back__content__footer h4 {
+  margin-top: -0.5em;
+  margin-bottom: 0em;
+}
+.back__footer {
+  margin-top: 1em;
+  text-align: center;
+}

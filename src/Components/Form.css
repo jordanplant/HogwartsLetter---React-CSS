@@ -1,0 +1,68 @@
+h1 {
+  font-family: "Bluu Next Bold", serif;
+  color: #0c0434 !important;
+  font-size: 3em;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 40em;
+  height: 40em;
+  background-color: #f5f5dc;
+  border-radius: 20px; /* Add some roundness */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.form__details {
+  padding: 1em;
+  display: grid;
+  gap: 20px; /* Increase the gap between fields for a more whimsical feel */
+  font-size: 1.5em;
+}
+
+.form__details > div {
+  display: grid; /* Change to grid for each row */
+  grid-template-columns: max-content 1fr; /* Adjust grid template columns */
+  align-items: center; /* Align items vertically */
+}
+
+.form__details label {
+  flex-shrink: 0;
+  width: 120px;
+  color: #0c0434; /* Match label color with h1 */
+  text-align: right;
+  padding-right: 1em;
+}
+
+.form__details input,
+.form__details select {
+  border: 2px solid #0c0434; /* Add a whimsical border */
+  background-color: #f5f5dc; /* Match background color with container */
+  padding: 0.5em;
+  width: 100%;
+}
+
+button {
+  padding: 0.5em 1em; /* Add more padding to the button for a whimsical look */
+  border: none;
+  background-color: #0c0434; /* Match button color with label */
+  color: #f5f5dc; /* Contrast text color */
+  font-size: 1.2em; /* Increase font size */
+  border-radius: 10px; /* Add some roundness */
+  cursor: pointer; /* Add a pointer cursor */
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+button:hover {
+  background-color: #0c0434; /* Change button color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+button:active {
+  background-color: #fff; /* Change button color on click */
+  color: #0c0434; /* Change text color on click */
+}
