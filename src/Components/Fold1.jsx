@@ -24,8 +24,8 @@ const Fold1 = () => {
       <div className="content__header front__content">
         <img
           className="crest"
-          src="public/hogwarts-1.svg"
-          alt="./Hogwarts Crest"
+          src="./public/hogwarts-1.svg"
+          alt="Hogwarts Crest"
         />
       </div>
 
