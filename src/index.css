@@ -15,4 +15,5 @@ body {
     rgba(60, 30, 94, 1) 100%
   );
   background-repeat: no-repeat;
+  height: 100vh;
 }
