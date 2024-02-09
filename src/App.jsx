@@ -4,8 +4,8 @@ import Letter from "./Components/Letter";
 
 function App() {
   const [formData, setFormData] = useState(null);
-  const [showForm, setShowForm] = useState(false); //SWAP THESE AFTER TESTING
-  const [showLetter, setShowLetter] = useState(true); //SWAP THESE AFTER TESTING
+  const [showForm, setShowForm] = useState(true); //SWAP THESE AFTER TESTING
+  const [showLetter, setShowLetter] = useState(false); //SWAP THESE AFTER TESTING
 
   const handleFormSubmit = (data) => {
     setFormData(data);
