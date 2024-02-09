@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Form from "./Components/Form";
 import Letter from "./Components/Letter";
-import "./app.css";
 
 function App() {
   const [formData, setFormData] = useState(null);
