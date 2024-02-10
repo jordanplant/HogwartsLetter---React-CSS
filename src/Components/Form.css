@@ -1,28 +1,30 @@
-/* Base styles */
+/* Base styles for typography and layout */
 h1 {
   font-family: "Bluu Next Bold", serif;
   color: #0c0434 !important;
-  font-size: 3em; /* Adjusted in media queries for smaller screens */
+  font-size: 3em;
 }
 
+/* Container for form elements with default styles */
 .form__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 40em; /* Adjusted in media queries */
-  height: 40em; /* Adjusted in media queries */
+  width: 40em;
+  height: 40em;
   background-color: #f5f5dc;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling details within the form, including grid layout */
 .form__details {
   padding: 1em;
   display: grid;
   gap: 20px;
-  font-size: 1.5em; /* Adjusted in media queries for smaller screens */
+  font-size: 1.5em;
 }
 
 .form__details > div {
@@ -31,6 +33,7 @@ h1 {
   align-items: center;
 }
 
+/* Label styles for form elements */
 .form__details label {
   flex-shrink: 0;
   width: 150px;
@@ -40,6 +43,7 @@ h1 {
   font-size: 1.3em;
 }
 
+/* Input and select element styles */
 .form__details input,
 .form__details select {
   border: 2px solid #0c0434;
@@ -47,6 +51,7 @@ h1 {
   padding: 0.5em;
 }
 
+/* Button styles with hover effects */
 button {
   padding: 0.5em 1em;
   border: none;
@@ -57,53 +62,51 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 button:hover,
 button:active {
   background-color: #0c0434;
   color: #fff;
 }
 
-/* Media queries */
-/* For mobile devices */
+/* Media query adjustments for mobile devices */
 @media (max-width: 767px) {
   h1 {
-    font-size: 2em; /* Smaller font size for mobile */
+    font-size: 2em;
   }
 
   .form__container {
-    width: 90%; /* Use a percentage of the screen width */
-    height: auto; /* Adjust height to content */
-    padding: 1em; /* Add padding for smaller screens */
+    width: 90%;
+    height: auto;
+    padding: 1em;
   }
 
   .form__details {
-    font-size: 1em; /* Smaller font size for better readability on mobile */
+    font-size: 1em;
   }
 
   .form__details > div {
-    grid-template-columns: 1fr; /* Stack label and input vertically on small screens */
-    gap: 10px; /* Reduce gap for compact layout */
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .form__details label {
-    text-align: left; /* Align labels to the left for a more natural flow */
-    padding-right: 0; /* Remove padding-right as it's no longer needed */
+    text-align: left;
+    padding-right: 0;
   }
 }
 
-/* For tablets and small desktops */
+/* Adjustments for tablets and small desktop screens */
 @media (min-width: 768px) and (max-width: 1024px) {
   .form__container {
-    width: 60%; /* Adjust width for medium screens */
-    height: auto; /* Adjust height to content */
+    width: 60%;
+    height: auto;
   }
 }
 
-/* For larger screens */
+/* Adjustments for larger screens */
 @media (min-width: 1024px) {
   .form__container {
-    width: 40em; /* Fixed width for large screens */
-    height: 40em; /* Fixed height for consistency */
+    width: 40em;
+    height: 40em;
   }
 }

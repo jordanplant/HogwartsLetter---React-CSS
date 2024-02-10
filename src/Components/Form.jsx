@@ -32,7 +32,7 @@ const Form = ({ onSubmit }) => {
 
   return (
     <div className="form__container">
-      <h1>Enter your details</h1>
+      <h1>Enrol at Hogwarts</h1>
       <form className="form__details" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="title">Title:</label>
