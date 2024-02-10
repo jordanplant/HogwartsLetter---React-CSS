@@ -30,7 +30,7 @@ h4 {
 }
 
 .content p {
-  font-size: 0.9em; /* Adjust font size for smaller screens */
+  font-size: 0.8em; /* Adjust font size for smaller screens */
   font-family: "magik";
 }
 
@@ -41,7 +41,7 @@ h4 {
   flex-direction: column;
   justify-content: right;
   align-items: flex-end;
-  margin-top: 0.2em;
+  margin-top: 0.7em;
   margin-right: 2em; /* Adjust margin for smaller screens */
 }
 
@@ -54,28 +54,29 @@ h4 {
 .content__signature {
   font-family: "Aquiline", cursive, serif !important;
   font-size: 1em !important; /* Adjust font size for smaller screens */
-  margin-top: -0.5em !important; /* Adjust margin for smaller screens */
+  margin-top: -1em !important; /* Adjust margin for smaller screens */
 }
 
 /* Footer Styles */
 .content__footer {
   text-align: center;
-  margin-top: 0.5em; /* Adjust margin for smaller screens */
+  margin-top: 1em; /* Adjust margin for smaller screens */
 }
 
 .content__footerText {
   text-align: center;
   color: #000 !important;
-  font-size: 0.5em; /* Adjust font size for smaller screens */
+  font-size: 0.6em; /* Adjust font size for smaller screens */
 }
 
 .content__footer h2 {
-  font-size: 0.6em; /* Adjust font size for smaller screens */
+  font-size: 0.65em; /* Adjust font size for smaller screens */
 }
 
 .content__footer p {
   font-family: "Bluu Next Bold", serif;
-  font-size: 0.4em; /* Adjust font size for smaller screens */
+  font-size: 0.53em; /* Adjust font size for smaller screens */
+  margin: -0.5em;
 }
 
 /* Back Content Styles */
@@ -92,6 +93,9 @@ h4 {
 }
 
 .back__content__body {
+  margin-top: -0.5em;
+}
+.back__content__body p {
   margin-top: -0.5em;
 }
 
