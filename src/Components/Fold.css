@@ -1,16 +1,14 @@
-/* Base styles for layout and typography */
 .content__container {
-  display: block;
+  display: block; /* Change display to block for better responsiveness */
   z-index: 4;
   position: relative;
 }
 
-/* General content styling */
+/* General Content Styles */
 .content {
-  padding: 0 20px;
+  padding: 0 20px; /* Adjust padding for smaller screens */
 }
 
-/* Typography for headings */
 h2,
 h3,
 h4 {
@@ -19,27 +17,24 @@ h4 {
   font-size: 0.6em;
 }
 
-/* Crest image container */
 .crest {
   display: flex;
   width: 8.5em;
   margin: 0 auto;
 }
 
-/* Italic text styling */
 .italicize {
   font-style: italic;
   font-size: 0.8em;
   color: #0c0434;
 }
 
-/* Paragraph styling within content */
 .content p {
-  font-size: 0.8em;
+  font-size: 0.8em; /* Adjust font size for smaller screens */
   font-family: "magik";
 }
 
-/* Signature and sign-off styling */
+/* Signature and Sign-Off Styles */
 .content__signOff {
   position: relative;
   display: flex;
@@ -47,11 +42,10 @@ h4 {
   justify-content: right;
   align-items: flex-end;
   margin-top: 0.7em;
-  margin-right: 2em;
+  margin-right: 2em; /* Adjust margin for smaller screens */
 }
 
-.content__signOff p,
-.content__signature {
+.content__signOff p {
   font-family: "magik";
   font-size: 0.8em;
   margin: 0;
@@ -59,35 +53,101 @@ h4 {
 
 .content__signature {
   font-family: "Aquiline", cursive, serif !important;
-  font-size: 1em !important;
-  margin-top: -1em !important;
+  font-size: 1em !important; /* Adjust font size for smaller screens */
+  margin-top: -1em !important; /* Adjust margin for smaller screens */
 }
 
-/* Footer styling */
-.content__footer,
-.content__footerText,
-.content__footer h2,
-.content__footer p {
+/* Footer Styles */
+.content__footer {
   text-align: center;
-  margin-top: 1em;
-  color: #000 !important;
-  font-size: 0.6em;
+  margin-top: 1em; /* Adjust margin for smaller screens */
 }
 
-/* List marker styling */
+.content__footerText {
+  text-align: center;
+  color: #000 !important;
+  font-size: 0.6em; /* Adjust font size for smaller screens */
+}
+
+.content__footer h2 {
+  font-size: 0.65em; /* Adjust font size for smaller screens */
+}
+
+.content__footer p {
+  font-family: "Bluu Next Bold", serif;
+  font-size: 0.53em; /* Adjust font size for smaller screens */
+  margin: -0.5em;
+}
+
 li::marker {
   color: #0c0434;
 }
 
-/* List styling */
 ul {
   list-style-type: circle;
 }
 
-/* List item styling */
 li {
   font-family: "HarryPotter7", sans-serif;
   font-size: 0.85em;
+}
+/* Back Content Styles */
+.back__content__heading p {
+  margin-top: 0.3em;
+}
+.back__header__list {
+  margin-top: 0em;
+  margin-bottom: -0.4em;
+}
+
+.back__content__heading h4 {
+  font-size: 0.5em;
+}
+
+.back__content__body {
+  margin-top: -0.5em;
+}
+.back__content__body p {
+  margin-top: -0.5em;
+}
+
+.back__body__list,
+.back__header__list,
+.back__footer__list {
+  padding: 0 1em; /* Remove padding for smaller screens */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 0.6em;
+}
+
+.back__header__list li,
+.back__body__list li,
+.back__footer__list li {
+  font-size: 0.5em;
+}
+.back__body__list li {
+  font-size: 0.4em;
+  padding: 0.1em 0; /* Adjust padding for smaller screens */
+  line-height: 1.5em; /* Adjust line height for smaller screens */
+}
+
+.back__content p {
+  margin: 0.2em 0; /* Adjust margin for smaller screens */
+  font-size: 0.7;
+}
+
+.back__header__list li {
+  padding: 0.2em 0; /* Adjust padding for smaller screens */
+}
+
+.back__content__footer h4 {
+  font-size: 0.5em;
+  margin: 0.5em 0;
+}
+
+.back__footer {
+  margin-top: 1em; /* Adjust margin for smaller screens */
+  text-align: center;
 }
 /* For screens larger than 768px */
 @media screen and (min-width: 768px) {
