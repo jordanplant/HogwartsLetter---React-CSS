@@ -33,7 +33,7 @@ h1 {
 
 .form__details label {
   flex-shrink: 0;
-  width: 120px;
+  width: 150px;
   color: #0c0434;
   text-align: right;
   padding-right: 1em;
@@ -45,7 +45,6 @@ h1 {
   border: 2px solid #0c0434;
   background-color: #f5f5dc;
   padding: 0.5em;
-  width: 100%;
 }
 
 button {

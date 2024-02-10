@@ -8,12 +8,8 @@
 }
 
 body {
-  background: rgb(12, 4, 52);
-  background: linear-gradient(
-    135deg,
-    rgba(12, 4, 52, 1) 0%,
-    rgba(60, 30, 94, 1) 100%
-  );
+  background: #0c0434;
+  background: linear-gradient(135deg, #0c0434 0%, #3c1e5e 100%);
   background-repeat: no-repeat;
   height: 100vh;
 }
