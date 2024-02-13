@@ -196,7 +196,7 @@ li {
   }
 
   .content__footer {
-    margin-top: 1em; /* Adjust margin for larger screens */
+    margin-top: 3em; /* Adjust margin for larger screens */
   }
 
   .content__footerText {
@@ -211,16 +211,20 @@ li {
     font-size: 0.8em; /* Increase font size for larger screens */
   }
 
-  .back__body__list,
-  .back__header__list,
+  .back__header__list {
+    line-height: 1.3em;
+  }
   .back__footer__list {
-    padding: 0 2em;
+    padding: 0 1em; /* Remove padding for smaller screens */
+    margin-top: 0;
+    margin-bottom: 0.5em;
   }
 
   .back__header__list li,
   .back__body__list li,
   .back__footer__list li {
     font-size: 0.8em;
+    line-height: 1.3em;
   }
 
   .back__content__body h3 {
@@ -229,7 +233,7 @@ li {
 
   .back__body__list li {
     padding: 0.3em 0; /* Adjust padding for larger screens */
-    line-height: 0.75em; /* Adjust line height for larger screens */
+    font-size: 0.7em; /* Adjust line height for larger screens */
   }
 
   .back__content p {
@@ -270,7 +274,7 @@ li {
   }
 
   .content p {
-    font-size: 1.7em; /* Further increase font size for larger screens */
+    font-size: 2em; /* Further increase font size for larger screens */
   }
 
   .content__signOff {
@@ -279,11 +283,11 @@ li {
   }
 
   .content__signOff p {
-    font-size: 1.8em; /* Increase font size for larger screens */
+    font-size: 2em; /* Increase font size for larger screens */
   }
 
   .content__signature {
-    font-size: 2.2em !important; /* Further increase font size for larger screens */
+    font-size: 2.5em !important; /* Further increase font size for larger screens */
     margin-top: -1em !important; /* Further adjust margin for larger screens */
   }
 
@@ -309,8 +313,9 @@ li {
   }
 
   .back__body__list li {
-    padding: 0.1em;
-    line-height: 0.95em;
+    /* padding: 0.1em; */
+    font-size: 0.8em;
+    line-height: 1.5em;
   }
 
   .back__body__list,
@@ -320,9 +325,9 @@ li {
   }
 
   .back__header__list li,
-  .back__body__list li,
   .back__footer__list li {
-    font-size: 1.2em;
+    font-size: 0.9em;
+    line-height: 1.5em;
   }
 
   .back__content p {
